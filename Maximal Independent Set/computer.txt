@@ -1,0 +1,2 @@
+%%List of machines available.
+'t1@envy'.
