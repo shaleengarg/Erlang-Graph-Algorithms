@@ -1,10 +1,13 @@
 -module(bfs).
--export([execute/2, waitforpid/1]).
+-export([execute/2, waitforpid/1, test/0]).
 
 %Input a file with data of the form
 %list with number of nodes, then a list of neighbours according to the number  
 %[2, [2], [1] where the first number is the number of the nodes in the graph 
 %The next list is the list of nodes connected to the first node and all else respectively
+
+test() ->
+    execute("data.txt", "computer.txt").
 
 execute(Filename, Computernames) ->
     start(true, Filename, Computernames, 0, [], []).
