@@ -20,7 +20,7 @@ Example ->
 
 Implementation:  
 ---
-The algorithm chooses a machine at random to spawn a process which represents a node in the graph   
+The algorithm chooses machines at random to spawn a process which represents a node in the graph   
 The first node is inherently made the root node. This process starts the process of making the tree.   
 
 Answer: 
